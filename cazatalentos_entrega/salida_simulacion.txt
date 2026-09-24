@@ -1,0 +1,24 @@
+Loading required package: parallel
+Pueblos que quedaron despues del filtro y encestes esperados en 100 tiros nuevos
+
+ candidata quedaron encestes margen_95
+        C5    46414     70.0       0.0
+        C2      134     72.2       0.8
+        C1      314     72.5       0.7
+        C7    44638     76.7       0.1
+        C6    44638     76.8       0.1
+        C4     5399     77.4       0.1
+
+P(la de la fila mete menos que la de la columna) en 100 tiros nuevos
+(el enunciado dice Ci < Cj cuando esto es mayor a 0,5)
+
+      C5    C2    C1    C7    C6    C4
+C5    NA 0.594 0.608 0.802 0.804 0.832
+C2 0.351    NA 0.500 0.715 0.714 0.746
+C1 0.344 0.450    NA 0.678 0.678 0.709
+C7 0.161 0.243 0.277    NA 0.475 0.506
+C6 0.161 0.244 0.280 0.475    NA 0.505
+C4 0.136 0.213 0.250 0.442 0.441    NA
+
+Tiempo: 5.3 minutos
+FIN
